@@ -18,19 +18,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
-
 ### CSS
 
 ```
  *= require validationEngine.jquery
 ```
 
-### JS
+###  JS
 
 ```
 //= require jquery.validationEngine-zh_CN
 //= require jquery.validationEngine
+```
+
+### CODE
+
+Form field: `<%= f.text_field :name, :class => "span2 validate[required] text-input" %>`
+
+```
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#form_id").validationEngine();
+});
+</script>
 ```
 
 ## Contributing
