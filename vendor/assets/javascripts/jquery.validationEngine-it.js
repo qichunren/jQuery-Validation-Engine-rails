@@ -71,7 +71,7 @@
                 },
                 "serial_number": {
                     "regex": /^[a-zA-Z]*[a-zA-Z0-9]*$/,
-                    "alertText": "Ammesse lettere solo all'inizio del campo'"
+                    "alertText": "Ammesse le lettere solo all'inizio del campo"
                 },
                 "ipv4": {
                 	"regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
