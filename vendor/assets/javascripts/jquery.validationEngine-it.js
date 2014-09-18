@@ -9,7 +9,7 @@
                     "alertTextCheckboxMultiple": "* Per favore selezionare un'opzione",
                     "alertTextCheckboxe": "* E' richiesta la selezione della casella"
                 },
-                "requiredInFunction": { 
+                "requiredInFunction": {
                     "func": function(field, rules, i, options){
                         return (field.val() == "test") ? true : false;
                     },
@@ -68,7 +68,11 @@
                 "date_mm-yy": {
                     "regex": /^\d{2}\/\d{2}$/,
                     "alertText": "* Data non corretta, re-inserire secondo formato MM/GG"
-                },                
+                },
+                "letters_than_numbers": {
+                    "regex": /^[a-zA-Z]*[a-zA-Z0-9]*$/,
+                    "alertText": "Ammesse lettere solo all'inizio del campo'"
+                },
                 "ipv4": {
                 	"regex": /^((([01]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))[.]){3}(([0-1]?[0-9]{1,2})|(2[0-4][0-9])|(25[0-5]))$/,
                     "alertText": "* IP non corretto"
@@ -107,7 +111,7 @@
                 }
 
             };
-            
+
         }
     };
     $.validationEngineLanguage.newLang();
