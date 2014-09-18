@@ -69,7 +69,7 @@
                     "regex": /^\d{2}\/\d{2}$/,
                     "alertText": "* Data non corretta, re-inserire secondo formato MM/GG"
                 },
-                "letters_than_numbers": {
+                "serial_number": {
                     "regex": /^[a-zA-Z]*[a-zA-Z0-9]*$/,
                     "alertText": "Ammesse lettere solo all'inizio del campo'"
                 },
