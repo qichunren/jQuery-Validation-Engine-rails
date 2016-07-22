@@ -132,8 +132,8 @@
                     "alertText": "* Por favor entrar HELLO"
                 },
                 "validate_encoding": {
-                    "regex": /(?![\x00-\x7F]|[\xC0-\xDF][\x80-\xBF]|[\xE0-\xEF][\x80-\xBF]{2}|[\xF0-\xF7][\x80-\xBF]{3})./g
-                    "alertText": "* Este campo tiene caracteres inválidos",
+                    "regex": /(?![\x00-\x7F]|[\xC0-\xDF][\x80-\xBF]|[\xE0-\xEF][\x80-\xBF]{2}|[\xF0-\xF7][\x80-\xBF]{3})./g,
+                    "alertText": "* Este campo tiene caracteres inválidos"
                 },
             };
             
