@@ -132,7 +132,7 @@
           "alertText": "* Por favor entrar HELLO"
         },
         "validate_encoding": {
-          "regex": /[^\u0000-\u00ff]/g,
+          "regex": /[\u0000-\u00ff]\w+/,
           "alertText": "* Este campo tiene caracteres inválidos"
         }
       };
