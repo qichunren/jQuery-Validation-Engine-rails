@@ -183,7 +183,7 @@
           "alertText4": "yyyy-mm-dd hh:mm:ss AM|PM"
         },
         "validate_encoding": {
-          "regex": /[\u0000-\u00ff]\w+/,
+          "regex": /^[\u0000-\u00ff]*$/,
           "alertText": "* This field has invalid characters"
         }
       };
